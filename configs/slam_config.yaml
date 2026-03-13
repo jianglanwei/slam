@@ -1,0 +1,15 @@
+slam_toolbox:
+  ros__parameters:
+    # ROI (Region of Interest)
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    
+    # Frames
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    scan_topic: /scan
+    mode: mapping
+    map_update_interval: 0.5

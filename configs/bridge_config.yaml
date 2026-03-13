@@ -1,0 +1,53 @@
+- ros_topic_name: "/keyboard/keypress"
+  gz_topic_name: "/keyboard/keypress"
+  ros_type_name: "std_msgs/msg/Int32"
+  gz_type_name: "gz.msgs.Int32"
+  direction: GZ_TO_ROS 
+
+- ros_topic_name: "/clock"
+  gz_topic_name: "/clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "gz.msgs.Clock"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/material_color"
+  gz_topic_name: "/world/car-world/material_color"
+  ros_type_name: "ros_gz_interfaces/msg/MaterialColor"
+  gz_type_name: "gz.msgs.MaterialColor"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/scan"
+  gz_topic_name: "/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tf"
+  gz_topic_name: "/model/hatchback/tf_odom"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/cmd_vel"
+  gz_topic_name: "/model/hatchback/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/TwistStamped"
+  gz_type_name: "gz.msgs.Twist"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/scan"
+  gz_topic_name: "/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/odom"
+  gz_topic_name: "/model/hatchback/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/tf_static"
+  gz_topic_name: "/tf_static"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS

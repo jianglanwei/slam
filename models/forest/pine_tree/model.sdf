@@ -1,0 +1,84 @@
+<sdf version="1.7">
+  <model name="pine_tree">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://models/forest/pine_tree/meshes/pine_tree.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <!-- <collision name="tree_wall">
+        <pose>0 0 2.0 0 0 0</pose> <geometry>
+          <box>
+            <size>4 4 4</size> 
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name="debug_collision_visual">
+        <pose>0 0 2.0 0 0 0</pose> <geometry>
+          <box>
+            <size>4 4 4</size> </box>
+        </geometry>
+        <material>
+          <ambient>1 0 0 1</ambient>
+          <diffuse>1 0 0 1</diffuse>
+        </material>
+        <transparency>0.5</transparency>
+        <cast_shadows>false</cast_shadows>
+      </visual> -->
+
+      <visual name="branch">
+        <geometry>
+          <mesh>
+            <uri>model://models/forest/pine_tree/meshes/pine_tree.dae</uri>
+            <submesh>
+              <name>Branch</name>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <double_sided>true</double_sided>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <script>
+            <uri>model://models/forest/pine_tree/materials/scripts/</uri>
+            <uri>model://Pmodels/forest/pine_tree/materials/textures/</uri>
+            <name>PineTree/Branch</name>
+          </script>
+          
+          <pbr>
+            <metal>
+              <albedo_map>model://models/forest/pine_tree/materials/textures/branch_2_diffuse.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="bark">
+        <geometry>
+          <mesh>
+            <uri>model://models/forest/pine_tree/meshes/pine_tree.dae</uri>
+            <submesh>
+              <name>Bark</name>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <script>
+            <uri>model://models/forest/pine_tree/materials/scripts/</uri>
+            <uri>model://models/forest/pine_tree/materials/textures/</uri>
+            <name>PineTree/Bark</name>
+          </script>
+          
+          <pbr>
+            <metal>
+              <albedo_map>model://models/forest/pine_tree/materials/textures/bark_diffuse.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

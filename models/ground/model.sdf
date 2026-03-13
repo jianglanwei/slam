@@ -1,0 +1,31 @@
+<sdf version="1.7">
+  <model name="ground">
+    <static>true</static>
+    <link name="ground_collision">
+      <collision name="ground_collision">
+        <pose>25 0 0 0 0 0</pose>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+          </plane>
+        </geometry>
+      </collision>
+    </link>
+
+
+	<include>
+    <uri>
+    model://models/ground/streets
+    </uri>
+	</include>
+
+  <include>
+    <uri>
+    model://models/ground/lawns
+    </uri>
+	</include>
+
+   
+  </model>
+
+</sdf>

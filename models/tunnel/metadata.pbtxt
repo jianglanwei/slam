@@ -1,0 +1,24 @@
+model {
+  file: "model.sdf"
+  file_format {
+    version {
+      major: 1
+      minor: 6
+    }
+    name: "sdf"
+  }
+}
+name: "Tunnel Intersection"
+description: "Tunnel intersection."
+authors {
+  name: "Ian Chen"
+  email: "ichen@osrfoundation.org"
+}
+authors {
+  name: "Cole Biesemeyer"
+  email: "cole.bsmr@gmail.com"
+}
+dependencies {
+  uri: "https://fuel.ignitionrobotics.org/1.0/OpenRobotics/models/Tunnel Tile 1"
+}
+

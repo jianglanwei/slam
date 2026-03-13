@@ -1,0 +1,889 @@
+<sdf version="1.7">
+  <model name="cones">
+    <static>true</static>
+
+    <!-- cones on the west side of the north street.-->
+
+    <include>
+      <name>cone_n_w00</name>
+      <pose>43 40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_n_w01</name>
+      <pose>45 40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_n_w02</name>
+      <pose>47 40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_n_w03</name>
+      <pose>49 40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <!-- cones on the south side of the north street.-->
+
+    <include>
+      <name>cone_n_s00</name>
+      <pose>43 -40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_n_s01</name>
+      <pose>45 -40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_n_s02</name>
+      <pose>47 -40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_n_s03</name>
+      <pose>49 -40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+
+    <!-- cones on the west side of the south street.-->
+
+    <include>
+      <name>cone_s_w00</name>
+      <pose>-3 40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_s_w01</name>
+      <pose>-1 40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_s_w02</name>
+      <pose>1 40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_s_w03</name>
+      <pose>3 40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <!-- cones on the east side of the south street.-->
+
+    <include>
+      <name>cone_s_e00</name>
+      <pose>-3 -40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_s_e01</name>
+      <pose>-1 -40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_s_e02</name>
+      <pose>1 -40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_s_e03</name>
+      <pose>3 -40 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <!-- cones on the south side of the west street.-->
+
+    <include>
+      <name>cone_w_s00</name>
+      <pose>-10 20 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_w_s01</name>
+      <pose>-10 22 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_w_s02</name>
+      <pose>-10 24 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_w_s03</name>
+      <pose>-10 26 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <!-- cones on the south side of the east street.-->
+
+    <include>
+      <name>cone_e_s00</name>
+      <pose>-10 -26 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_e_s01</name>
+      <pose>-10 -24 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_e_s02</name>
+      <pose>-10 -22 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+      <name>cone_e_s03</name>
+      <pose>-10 -20 0 0 0 0</pose>
+      <uri>model://models/cones/cone</uri>
+    </include>
+
+    <!-- cones on the north side of the parking lot. -->
+
+    <include>
+    <name>cone_p_n00</name>
+    <pose>98 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n01</name>
+    <pose>98 -46 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n02</name>
+    <pose>98 -44 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n03</name>
+    <pose>98 -42 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n04</name>
+    <pose>98 -40 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n05</name>
+    <pose>98 -38 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n06</name>
+    <pose>98 -36 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n07</name>
+    <pose>98 -34 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n08</name>
+    <pose>98 -32 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n09</name>
+    <pose>98 -30 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n10</name>
+    <pose>98 -28 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n11</name>
+    <pose>98 -26 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n12</name>
+    <pose>98 -24 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n13</name>
+    <pose>98 -22 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n14</name>
+    <pose>98 -20 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n15</name>
+    <pose>98 -18 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n16</name>
+    <pose>98 -16 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n17</name>
+    <pose>98 -14 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n18</name>
+    <pose>98 -12 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n19</name>
+    <pose>98 -10 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n20</name>
+    <pose>98 -8 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n21</name>
+    <pose>98 -6 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n22</name>
+    <pose>98 -4 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n23</name>
+    <pose>98 -2 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n24</name>
+    <pose>98 0 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n25</name>
+    <pose>98 2 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n26</name>
+    <pose>98 4 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n27</name>
+    <pose>98 6 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n28</name>
+    <pose>98 8 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n29</name>
+    <pose>98 10 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n30</name>
+    <pose>98 12 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n31</name>
+    <pose>98 14 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n32</name>
+    <pose>98 16 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n33</name>
+    <pose>98 18 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n34</name>
+    <pose>98 20 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n35</name>
+    <pose>98 22 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n36</name>
+    <pose>98 24 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n37</name>
+    <pose>98 26 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n38</name>
+    <pose>98 28 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n39</name>
+    <pose>98 30 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n40</name>
+    <pose>98 32 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n41</name>
+    <pose>98 34 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n42</name>
+    <pose>98 36 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n43</name>
+    <pose>98 38 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n44</name>
+    <pose>98 40 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n45</name>
+    <pose>98 42 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n46</name>
+    <pose>98 44 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n47</name>
+    <pose>98 46 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_n48</name>
+    <pose>98 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+
+    <include>
+    <name>cone_p_w00</name>
+    <pose>66 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w01</name>
+    <pose>68 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w02</name>
+    <pose>70 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w03</name>
+    <pose>72 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w04</name>
+    <pose>74 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w05</name>
+    <pose>76 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w06</name>
+    <pose>78 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w07</name>
+    <pose>80 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w08</name>
+    <pose>82 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w09</name>
+    <pose>84 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w10</name>
+    <pose>86 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w11</name>
+    <pose>88 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w12</name>
+    <pose>90 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w13</name>
+    <pose>92 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w14</name>
+    <pose>94 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_w15</name>
+    <pose>96 48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+
+    <include>
+    <name>cone_p_e00</name>
+    <pose>66 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e01</name>
+    <pose>68 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e02</name>
+    <pose>70 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e03</name>
+    <pose>72 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e04</name>
+    <pose>74 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e05</name>
+    <pose>76 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e06</name>
+    <pose>78 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e07</name>
+    <pose>80 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e08</name>
+    <pose>82 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e09</name>
+    <pose>84 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e10</name>
+    <pose>86 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e11</name>
+    <pose>88 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e12</name>
+    <pose>90 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e13</name>
+    <pose>92 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e14</name>
+    <pose>94 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_e15</name>
+    <pose>96 -48 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+
+    <include>
+    <name>cone_p_m00</name>
+    <pose>81 -38 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m01</name>
+    <pose>81 -36 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m02</name>
+    <pose>81 -34 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m03</name>
+    <pose>81 -32 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m04</name>
+    <pose>81 -30 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m05</name>
+    <pose>81 -28 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m06</name>
+    <pose>81 -26 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m07</name>
+    <pose>81 -24 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m08</name>
+    <pose>81 -22 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m09</name>
+    <pose>81 -20 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m10</name>
+    <pose>81 -18 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m11</name>
+    <pose>81 -16 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m12</name>
+    <pose>81 -14 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m13</name>
+    <pose>81 -12 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m14</name>
+    <pose>81 -10 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m15</name>
+    <pose>81 -8 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m16</name>
+    <pose>81 -6 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m17</name>
+    <pose>81 -4 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m18</name>
+    <pose>81 -2 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m19</name>
+    <pose>81 0 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m20</name>
+    <pose>81 2 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m21</name>
+    <pose>81 4 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m22</name>
+    <pose>81 6 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m23</name>
+    <pose>81 8 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m24</name>
+    <pose>81 10 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m25</name>
+    <pose>81 12 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m26</name>
+    <pose>81 14 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m27</name>
+    <pose>81 16 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m28</name>
+    <pose>81 18 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m29</name>
+    <pose>81 20 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m30</name>
+    <pose>81 22 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m31</name>
+    <pose>81 24 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m32</name>
+    <pose>81 26 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m33</name>
+    <pose>81 28 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m34</name>
+    <pose>81 30 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m35</name>
+    <pose>81 32 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m36</name>
+    <pose>81 34 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m37</name>
+    <pose>81 36 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+
+    <include>
+    <name>cone_p_m38</name>
+    <pose>81 38 0 0 0 0</pose>
+    <uri>model://models/cones/cone</uri>
+    </include>
+    
+  </model>
+
+</sdf>

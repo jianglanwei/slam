@@ -1,0 +1,27 @@
+# ROS 2 folders:
+install/
+build/
+log/
+
+# Python:
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.tox/
+# If using virtual environments:
+venv/
+.venv/
+
+# Editor:
+*.swp
+*.save
+.vscode/
+.idea/
+.project
+.settings/
+
+# Operating system:
+.DS_Store
+Thumbs.db

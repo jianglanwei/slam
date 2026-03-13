@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="tunnel_intersection">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>0.02 0.02 0.02</scale>
+            <uri>meshes/Tunnel_Intersection.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <pose>0 0 0.02 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.02 0.02 0.02</scale>
+            <uri>meshes/Tunnel_Intersection.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <!--Uncomment <link> to preview detector region -->
+      <!--<link name='body'>
+        <pose>0 7.5 2 0 0 0</pose>
+        <visual name="v1">
+          <transparency>0.5</transparency>
+          <geometry>
+            <box>
+              <size>6 6 4</size>
+            </box>
+          </geometry>
+        </visual>
+        <material>
+          <ambient>0.0 1.0 0.0 1</ambient>
+          <diffuse>0.0 1.0 0.0 1</diffuse>
+          <specular>0.5 0.5 0.5 1</specular>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </link>-->
+      <plugin filename="libignition-gazebo-performer-detector-system.so" name="ignition::gazebo::systems::PerformerDetector">
+        <topic>/subt_performer_detector</topic>
+        <pose>0 7.5 2 0 0 0</pose>
+        <header_data>
+          <key>type</key>
+          <value>decision</value>
+        </header_data>
+        <geometry>
+          <box>
+            <size>6 6 4</size>
+          </box>
+        </geometry>
+      </plugin>
+
+  </model>
+</sdf>

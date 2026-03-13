@@ -1,0 +1,112 @@
+<sdf version="1.6">
+  <model name="stoplights">
+    <static>true</static>
+
+    <!-- stoplights on the intersection of the north street and the west street.-->
+
+    <include>
+      <name>light_nw_n</name>
+      <pose>47 23 4 0 0 1.57</pose>
+      <uri>model://models/stoplights/stoplight_a</uri>
+    </include>
+
+    <include>
+      <name>light_nw_s</name>
+      <pose>45 23 4 0 0 -1.57</pose>
+      <uri>model://models/stoplights/stoplight_a</uri>
+    </include>
+
+    <include>
+      <name>light_nw_w</name>
+      <pose>46 24 4 0 0 3.14</pose>
+      <uri>model://models/stoplights/stoplight_b</uri>
+    </include>
+
+    <include>
+      <name>light_nw_e</name>
+      <pose>46 22 4 0 0 0</pose>
+      <uri>model://models/stoplights/stoplight_b</uri>
+    </include>
+
+    <!-- stoplights on the intersection of the north street and the east street.-->
+
+    <include>
+      <name>light_ne_n</name>
+      <pose>47 -23 4 0 0 1.57</pose>
+      <uri>model://models/stoplights/stoplight_b</uri>
+    </include>
+
+    <include>
+      <name>light_ne_s</name>
+      <pose>45 -23 4 0 0 -1.57</pose>
+      <uri>model://models/stoplights/stoplight_b</uri>
+    </include>
+
+    <include>
+      <name>light_ne_w</name>
+      <pose>46 -22 4 0 0 3.14</pose>
+      <uri>model://models/stoplights/stoplight_a</uri>
+    </include>
+
+    <include>
+      <name>light_ne_e</name>
+      <pose>46 -24 4 0 0 0</pose>
+      <uri>model://models/stoplights/stoplight_a</uri>
+    </include>
+
+    <!-- stoplights on the intersection of the south street and the west street.-->
+
+    <include>
+      <name>light_sw_n</name>
+      <pose>1 23 4 0 0 1.57</pose>
+      <uri>model://models/stoplights/stoplight_b</uri>
+    </include>
+
+    <include>
+      <name>light_sw_s</name>
+      <pose>-1 23 4 0 0 -1.57</pose>
+      <uri>model://models/stoplights/stoplight_b</uri>
+    </include>
+
+    <include>
+      <name>light_sw_w</name>
+      <pose>0 24 4 0 0 3.14</pose>
+      <uri>model://models/stoplights/stoplight_a</uri>
+    </include>
+
+    <include>
+      <name>light_sw_e</name>
+      <pose>0 22 4 0 0 0</pose>
+      <uri>model://models/stoplights/stoplight_a</uri>
+    </include>
+
+    <!-- stoplights on the intersection of the south street and the east street.-->
+
+    <include>
+      <name>light_se_n</name>
+      <pose>1 -23 4 0 0 1.57</pose>
+      <uri>model://models/stoplights/stoplight_a</uri>
+    </include>
+
+    <include>
+      <name>light_se_s</name>
+      <pose>-1 -23 4 0 0 -1.57</pose>
+      <uri>model://models/stoplights/stoplight_a</uri>
+    </include>
+
+    <include>
+      <name>light_se_w</name>
+      <pose>0 -22 4 0 0 3.14</pose>
+      <uri>model://models/stoplights/stoplight_b</uri>
+    </include>
+
+    <include>
+      <name>light_se_e</name>
+      <pose>0 -24 4 0 0 0</pose>
+      <uri>model://models/stoplights/stoplight_b</uri>
+    </include>
+
+    
+  </model>
+
+</sdf>

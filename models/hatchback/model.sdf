@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="hatchback">
+    <static>false</static>
+    <!-- link: physical piece of the model -->
+    <link name="base_link">
+      <!-- collision: the physical boundary of the hatchback -->
+      <collision name="collision">
+         <!-- position of the model -->
+         <!-- as `relative_to` is not specified, pose is relative to the world -->
+        <pose>0 0 0 0 0 1.57079632679</pose>
+        <geometry>
+          <mesh>
+            <scale>0.0254 0.0254 0.0254</scale>
+            <uri>model://models/hatchback/meshes/hatchback.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <!-- visual: the visualization of the hatchback -->
+      <visual name="visual">
+        <pose>0 0 0 0 0 1.57079632679</pose>
+        <geometry>
+          <mesh>
+            <scale>0.0254 0.0254 0.0254</scale>
+            <uri>model://models/hatchback/meshes/hatchback.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <sensor name='gpu_lidar' type='gpu_lidar'>
+      <pose>0 0 2.0 0 0 0</pose>
+      <topic>scan</topic>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+          <vertical>
+            <samples>1</samples>
+            <resolution>0.01</resolution>
+            <min_angle>0</min_angle>
+            <max_angle>0</max_angle>
+          </vertical>
+        </scan>
+        <range>
+          <min>0.08</min>
+          <max>50.0</max>
+        </range>
+      </ray>
+      <always_on>1</always_on>
+      <visualize>true</visualize> </sensor>
+
+    <!-- <visual name="lidar_visual">
+      <pose>0 0 2.5 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>0.1</radius>
+          <length>0.1</length>
+        </cylinder>
+      </geometry>
+      <material>
+        <ambient>0 0 1 1</ambient> <diffuse>0 0 1 1</diffuse>
+      </material>
+    </visual> -->
+
+    <inertial>
+      <mass>1500.0</mass>
+      <inertia>
+        <ixx>1000.0</ixx>
+        <ixy>0.0</ixy>
+        <ixz>0.0</ixz>
+        <iyy>1000.0</iyy>
+        <iyz>0.0</iyz>
+        <izz>1000.0</izz>
+      </inertia>
+    </inertial>
+    </link>
+    
+    <plugin
+      filename="gz-sim-velocity-control-system"
+      name="gz::sim::systems::VelocityControl">
+      <link_name>base_link</link_name>
+      
+      <linear_velocity_dims>2</linear_velocity_dims>
+      
+      <angular_velocity_dims>1</angular_velocity_dims>
+    </plugin>
+
+    <!-- Moving Forward-->
+    <!-- <plugin filename="gz-sim-triggered-publisher-system"
+            name="gz::sim::systems::TriggeredPublisher">
+        <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+            <match field="data">16777235</match>
+        </input>
+        <output type="gz.msgs.Twist" topic="model/hatchback/cmd_vel">
+            linear: {x: 3}
+        </output>
+    </plugin> -->
+
+    <!-- Moving Backward-->
+    <!-- <plugin filename="gz-sim-triggered-publisher-system"
+            name="gz::sim::systems::TriggeredPublisher">
+        <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+            <match field="data">16777237</match>
+        </input>
+        <output type="gz.msgs.Twist" topic="model/hatchback/cmd_vel">
+            linear: {x: 0}
+        </output>
+    </plugin> -->
+
+
+    <!-- Turn Left-->
+    <!-- <plugin filename="gz-sim-triggered-publisher-system"
+            name="gz::sim::systems::TriggeredPublisher">
+        <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+            <match field="data">16777234</match>
+        </input>
+        <output type="gz.msgs.Twist" topic="model/hatchback/cmd_vel">
+            linear: {x: 3}, angular: {z: 0.5}
+        </output>
+    </plugin> -->
+
+      <!-- Turn Right-->
+    <!-- <plugin filename="gz-sim-triggered-publisher-system"
+            name="gz::sim::systems::TriggeredPublisher">
+        <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+            <match field="data">16777236</match>
+        </input>
+        <output type="gz.msgs.Twist" topic="model/hatchback/cmd_vel">
+            linear: {x: 3}, angular: {z: -0.5}
+        </output>
+    </plugin> -->
+
+<plugin
+  filename="gz-sim-odometry-publisher-system"
+  name="gz::sim::systems::OdometryPublisher">
+  <odom_frame>odom</odom_frame>
+  <robot_base_frame>base_link</robot_base_frame> <odom_publish_frequency>50</odom_publish_frequency>
+  <odom_topic>/model/hatchback/odometry</odom_topic>
+  <tf_topic>/model/hatchback/tf_odom</tf_topic>
+  <dimensions>3</dimensions>
+</plugin>
+
+  </model>
+</sdf>
